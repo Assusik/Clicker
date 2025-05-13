@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd80aa48e93b4a4ba1ba448b85b1cad9, type: 3}
+  m_Name: EnemysConfig
+  m_EditorClassIdentifier: 
+  Enemies:
+  - Id: enemy
+    Sprite: {fileID: 21300000, guid: 6adad68a63346b74b9dbcbc0f2457e83, type: 3}
+    _EnemyType: 0
+  - Id: enemy2
+    Sprite: {fileID: -3588842431496557439, guid: eaa0fe89a78ebc6469e380325e1046ab, type: 3}
+    _EnemyType: 1
+  - Id: enemy3
+    Sprite: {fileID: -2113434227155342100, guid: 9cec8a290d9f26b4ca1bc88ec56d0003, type: 3}
+    _EnemyType: 1
+  - Id: boss1
+    Sprite: {fileID: 8013984111776462845, guid: 3e5d506ed10cde4428cd2a5b22692f3c, type: 3}
+    _EnemyType: 1
+  - Id: boss2
+    Sprite: {fileID: -3588842431496557439, guid: 0ae6af6f4b7bb1a408d7a8628ee13f29, type: 3}
+    _EnemyType: 1
+  EnemyPrefab: {fileID: 8511965035364012395, guid: 4f97d49c06c0ceb449774195ef92ad2d, type: 3}
+  SpellPrefab: {fileID: 0}
